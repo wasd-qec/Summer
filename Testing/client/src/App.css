@@ -1,0 +1,63 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #6c757d;
+    color: white;
+}
+
+button:hover {
+    filter: brightness(120%);
+}
+
+/* Specific Button Overrides */
+.cart-button {
+    background-color: #ffc107; /* Yellow/Orange highlight */
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.cart-button:hover {
+    filter: brightness(110%);
+}
+
+/* Product Card Styles (already used inline, but good to add context) */
+.price {
+    color: #dc3545; /* Red price emphasis */
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: '20px';
+    font-size: 1em;
+}
+
+/* Checkout Summary */
+.total {
+    font-weight: bold;
+}
