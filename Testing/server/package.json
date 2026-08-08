@@ -4,7 +4,8 @@
   "description": "E-commerce backend API using Express and SQLite.",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "ts-node index.ts",
+    "dev": "ts-node index.ts",
     "build": "tsc"
   },
   "dependencies": {
